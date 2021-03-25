@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/scripts/task1.js"></script>
+    <script src="/scripts/task2.js"></script>
+    <script src="/scripts/task3.js"></script>
+    <script src="/scripts/task4.js"></script>
+    <script src="/scripts/task5.js"></script>
+
+</head>
+<body>
+    <div>
+        <p id="task1ID">This is task 1</p>
+        <button id="task1Button" onclick="task1()">Change text colour</button>
+    </div>
+    <div id="task2ID">
+        <button onclick="task2()">Add a new paragraph</button>
+        <br>
+    </div>
+    <div id="task3ID">
+        <p>This is task 3</p>
+        <div id="task3Event" style="height: 5%; width: 5%; background-color: blue;">
+        </div>
+    </div>
+    <div id="task4ID">
+        <p>This is task 4</p>
+        <a id="task4Link" href="https://www.google.com/">Google</a>
+    </div>
+    <div id="task5ID">
+        <p>This is task 5</p>
+        <form action="/not-available">
+            <fieldset>
+                <div>
+                    <label for="task5Input">Enter a Number: </label>
+                    <input id="task5Input" type="text" name="myNumber" placeholder="Type a number here" autofocus />
+                    <button id="task5SubmitButton" type="submit">Submit</button>
+                </div>
+                <p id="task5Output">The number multiplied by 5 will go here</p>
+            </fieldset>
+        </form>
+    </div>
+    <script>
+        task3();
+        task4();
+        task5();
+    </script>
+</body>
+</html>
